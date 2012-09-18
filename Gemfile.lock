@@ -1,21 +1,10 @@
 GIT
   remote: git://github.com/guard/guard.git
-  revision: 863fa1247e07a0659edebfede61cf16096496c36
+  revision: 94623f22ddc05e6ba39515f5dd19fde28c2d3f23
   specs:
     guard (1.3.2)
       listen (>= 0.4.2)
       thor (>= 0.14.6)
-
-GIT
-  remote: git://github.com/kibiz0r/motivation.git
-  revision: 8eb9600bd6352c5f990ba691db9d85d56faf0a81
-  specs:
-    motivation (0.0.1)
-      activesupport
-      bubble-wrap
-      coalesce
-      konjure
-      motion_support
 
 PATH
   remote: .
@@ -28,6 +17,16 @@ PATH
       motion_support
       motivation
       reactr
+
+PATH
+  remote: /Users/kibiyama/git/motivation
+  specs:
+    motivation (0.0.1)
+      activesupport
+      bubble-wrap
+      coalesce
+      konjure
+      motion_support
 
 PATH
   remote: /Users/kibiyama/git/reactr

@@ -1,4 +1,6 @@
 require 'reactr'
+require 'motivation'
+require 'mocap/captivation'
 require 'mocap/controller'
 require 'mocap/mediator'
 require 'mocap/presenter'
