@@ -1,8 +1,6 @@
 module Mocap
   class Presenter
-    # include Captivation
-    # extend Captivation::ClassMethods
-    # include Capture
-    # extend Presentation
+    include Captivation::Routable
+    include Mocap::Presentation
   end
 end

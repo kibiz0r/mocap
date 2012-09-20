@@ -20,6 +20,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'coalesce'
   gem.add_runtime_dependency 'reactr'
   gem.add_runtime_dependency 'motivation'
+  gem.add_runtime_dependency 'captivation'
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'rr'
 

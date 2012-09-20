@@ -1,6 +1,5 @@
 module Mocap
   class Mediator
-    include Captivation
-    extend Captivation::ClassMethods
+    include Captivation::Routable
   end
 end
