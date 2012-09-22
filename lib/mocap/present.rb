@@ -8,7 +8,7 @@ module Mocap
         if provided
           wrapper_factory = wrapper_factories[slot]
           if wrapper_factory
-            wrapper = wrapper_factory.new slot => provided
+            wrapper = wrapper_factory.new provided_values
             [slot, wrapper]
           else
             [slot, provided]
