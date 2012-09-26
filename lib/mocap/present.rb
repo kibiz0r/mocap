@@ -29,13 +29,17 @@ module Mocap
         end
       end
 
+      @connected_values ||= []
       presentation_values.each_value do |value|
         next unless value.is_a? Mocap::ViewModelness
+        next if @connected_values.include? value
 
         they = value.router.public_channel # use their public channel
         we = router.named_channel value # use our named channel
 
         we.connect they
+
+        @connected_values << value
       end
 
       presentation_values.each_value do |value|
